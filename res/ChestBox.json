@@ -1,0 +1,199 @@
+{
+  "ID": "823afb39-d67b-4c05-8ee9-e8f3392f9c62",
+  "Version": "2.3.4",
+  "Name": "ChessBox",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 419,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "AvailabelChest.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 140.9227,
+              "Y": 474.9965
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.1305,
+              "Y": 0.2474
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 140.9227,
+            "RightMargin": 939.0773,
+            "TopMargin": 1445.0035,
+            "BottomMargin": 474.9965,
+            "Tag": 427,
+            "ActionTag": -1400735377,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Chest1",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "TimingChest.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 388.316,
+              "Y": 473.8777
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.3596,
+              "Y": 0.2468
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 388.316,
+            "RightMargin": 691.684,
+            "TopMargin": 1446.1223,
+            "BottomMargin": 473.8777,
+            "Tag": 2818,
+            "ActionTag": 836886082,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Chest2",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "OpenableChest.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 658.918,
+              "Y": 475.8792
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.6101,
+              "Y": 0.2479
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 658.918,
+            "RightMargin": 421.082,
+            "TopMargin": 1444.1208,
+            "BottomMargin": 475.8792,
+            "Tag": 2829,
+            "ActionTag": -1007205125,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Chest3",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "EmptyChest.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 922.7252,
+              "Y": 478.545
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.8544,
+              "Y": 0.2492
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 922.7252,
+            "RightMargin": 157.2748,
+            "TopMargin": 1441.455,
+            "BottomMargin": 478.545,
+            "Tag": 2832,
+            "ActionTag": -864538118,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Chest4",
+            "ctype": "ProjectNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "AvailabelChest.json",
+        "EmptyChest.json",
+        "OpenableChest.json",
+        "TimingChest.json"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

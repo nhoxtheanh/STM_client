@@ -57,14 +57,14 @@ var GameClient = cc.Class.extend(
             cc.log("onFinishConnect:" + isSuccess);
             if(isSuccess)
             {
-                fr.getCurrentScreen().onConnectSuccess();
+                //fr.getCurrentScreen().onConnectSuccess();
 
                 var pk = gv.gameClient.getOutPacket(CmdSendHandshake);
                 pk.putData();
                 gv.gameClient.getNetwork().send(pk);
                 gv.poolObjects.push(pk);
             }else{
-                fr.getCurrentScreen().onConnectFail(gv.gameClient._serverName + ":" + gv.gameClient._port);
+                //fr.getCurrentScreen().onConnectFail(gv.gameClient._serverName + ":" + gv.gameClient._port);
             }
         },
         onDisconnected:function()

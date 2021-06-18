@@ -1,0 +1,14 @@
+{
+    "goldIncrease": 1000,
+    "gIncrease": 100,
+    "reward": {
+        "goldMin": 10,
+        "goldMax": 20,
+        "cardMin": 10,
+        "cardMax": 20,
+        "slot": 2,
+        "time": 10800,
+        "skipCost": 18,
+        "skipEachG": 600
+    }
+}

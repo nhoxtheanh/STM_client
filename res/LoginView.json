@@ -1,0 +1,307 @@
+{
+  "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
+  "Version": "2.3.4",
+  "Name": "LoginView",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/lobby_background.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 529.2169,
+              "Y": 967.2122
+            },
+            "Scale": {
+              "ScaleX": 1.2964,
+              "ScaleY": 1.4557
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.49,
+              "Y": 0.5038
+            },
+            "PreSize": {
+              "X": 0.7889,
+              "Y": 0.688
+            },
+            "LeftMargin": 103.2169,
+            "RightMargin": 124.7831,
+            "TopMargin": 292.2878,
+            "BottomMargin": 306.7122,
+            "Tag": 3,
+            "ActionTag": -1181469392,
+            "Size": {
+              "X": 852.0,
+              "Y": 1321.0
+            },
+            "Name": "BG_Lobby",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "common/common_arena_forest.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 537.3929,
+              "Y": 1217.4023
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4976,
+              "Y": 0.6341
+            },
+            "PreSize": {
+              "X": 0.5602,
+              "Y": 0.3292
+            },
+            "LeftMargin": 234.8929,
+            "RightMargin": 240.1071,
+            "TopMargin": 386.5977,
+            "BottomMargin": 901.4023,
+            "Tag": 10,
+            "ActionTag": -1184835270,
+            "Size": {
+              "X": 605.0,
+              "Y": 632.0
+            },
+            "Name": "BG_Area",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "ButtonText": "Đăng Nhập",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/SVN-Supercell Magic.ttf",
+              "Plist": ""
+            },
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "common/common_btn_orange.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "common/common_btn_orange.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 164,
+            "Scale9Height": 89,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 539.4725,
+              "Y": 355.5857
+            },
+            "Scale": {
+              "ScaleX": 2.2553,
+              "ScaleY": 1.7007
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4995,
+              "Y": 0.1852
+            },
+            "PreSize": {
+              "X": 0.1796,
+              "Y": 0.0578
+            },
+            "LeftMargin": 442.4725,
+            "RightMargin": 443.5275,
+            "TopMargin": 1508.9143,
+            "BottomMargin": 300.0857,
+            "CallBackType": "Touch",
+            "Tag": 12,
+            "ActionTag": -1775834172,
+            "Size": {
+              "X": 194.0,
+              "Y": 111.0
+            },
+            "Name": "Login_Button",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FlipX": true,
+            "FlipY": true,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "common/common_btn_gray.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 539.4203,
+              "Y": 704.9041
+            },
+            "Scale": {
+              "ScaleX": 3.5211,
+              "ScaleY": 1.4947
+            },
+            "CColor": {
+              "R": 104,
+              "G": 97,
+              "B": 97
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4995,
+              "Y": 0.3671
+            },
+            "PreSize": {
+              "X": 0.1796,
+              "Y": 0.0578
+            },
+            "LeftMargin": 442.4203,
+            "RightMargin": 443.5797,
+            "TopMargin": 1159.5959,
+            "BottomMargin": 649.4041,
+            "Tag": 14,
+            "ActionTag": 1944556704,
+            "Size": {
+              "X": 194.0,
+              "Y": 111.0
+            },
+            "Name": "BG_TextField",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/SVN-Avo bold.ttf",
+              "Plist": ""
+            },
+            "FontSize": 14,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "   Nhập ID",
+            "MaxLengthEnable": true,
+            "MaxLengthText": 8,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 542.5713,
+              "Y": 699.6873
+            },
+            "Scale": {
+              "ScaleX": 4.5604,
+              "ScaleY": 3.3614
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5024,
+              "Y": 0.3644
+            },
+            "PreSize": {
+              "X": 0.0778,
+              "Y": 0.012
+            },
+            "LeftMargin": 500.5713,
+            "RightMargin": 495.4287,
+            "TopMargin": 1208.8127,
+            "BottomMargin": 688.1873,
+            "Tag": 13,
+            "ActionTag": 342925256,
+            "Size": {
+              "X": 84.0,
+              "Y": 23.0
+            },
+            "Name": "ID_TextField",
+            "ctype": "TextFieldObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "common/common_arena_forest.png",
+        "common/common_btn_gray.png",
+        "common/common_btn_orange.png",
+        "Default/Button_Disable.png",
+        "font/SVN-Avo bold.ttf",
+        "font/SVN-Supercell Magic.ttf",
+        "lobby/lobby_background.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

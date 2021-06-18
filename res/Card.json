@@ -1,0 +1,608 @@
+{
+  "ID": "e7ac23d0-190b-45d7-bad0-63d6b01c87c3",
+  "Version": "2.3.4",
+  "Name": "Card",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 6,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "card/card_background_1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.5,
+              "ScaleY": 1.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -59.0,
+            "RightMargin": -59.0,
+            "TopMargin": -82.0,
+            "BottomMargin": -82.0,
+            "Tag": 7,
+            "ActionTag": -242637364,
+            "Size": {
+              "X": 118.0,
+              "Y": 164.0
+            },
+            "Name": "card_background_1_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "card/card_border_1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.5,
+              "ScaleY": 1.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -69.0,
+            "RightMargin": -69.0,
+            "TopMargin": -93.0,
+            "BottomMargin": -93.0,
+            "Tag": 8,
+            "ActionTag": 205975449,
+            "Size": {
+              "X": 138.0,
+              "Y": 186.0
+            },
+            "Name": "card_border_1_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "card/card_tower_cannon.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.5,
+              "ScaleY": 1.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -59.0,
+            "RightMargin": -59.0,
+            "TopMargin": -82.0,
+            "BottomMargin": -82.0,
+            "Tag": 9,
+            "ActionTag": 1334711462,
+            "Size": {
+              "X": 118.0,
+              "Y": 164.0
+            },
+            "Name": "card_tower_damage_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "card/card_level.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -1.0326,
+              "Y": -107.5625
+            },
+            "Scale": {
+              "ScaleX": 1.5378,
+              "ScaleY": 1.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -59.5326,
+            "RightMargin": -57.4674,
+            "TopMargin": 96.5625,
+            "BottomMargin": -118.5625,
+            "Tag": 96,
+            "ActionTag": -1314468713,
+            "Size": {
+              "X": 117.0,
+              "Y": 22.0
+            },
+            "Name": "card_level_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "card/card_level.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -2.0823,
+              "Y": -165.8826
+            },
+            "Scale": {
+              "ScaleX": 1.7189,
+              "ScaleY": 2.0661
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -60.5823,
+            "RightMargin": -56.4177,
+            "TopMargin": 154.8826,
+            "BottomMargin": -176.8826,
+            "Tag": 299,
+            "ActionTag": 465718885,
+            "Size": {
+              "X": 117.0,
+              "Y": 22.0
+            },
+            "Name": "card_level_78",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "common/common_icon_energy.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -85.5195,
+              "Y": 109.3964
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -123.0195,
+            "RightMargin": 48.0195,
+            "TopMargin": -151.8964,
+            "BottomMargin": 66.8964,
+            "Tag": 206,
+            "ActionTag": 1744035872,
+            "Size": {
+              "X": 75.0,
+              "Y": 85.0
+            },
+            "Name": "common_icon_energy_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "6",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/SVN-Supercell Magic.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -83.3176,
+              "Y": 109.4691
+            },
+            "Scale": {
+              "ScaleX": 1.4963,
+              "ScaleY": 1.3182
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -93.3176,
+            "RightMargin": 73.3176,
+            "TopMargin": -122.9691,
+            "BottomMargin": 95.9691,
+            "Tag": 207,
+            "ActionTag": -936671745,
+            "Size": {
+              "X": 20.0,
+              "Y": 27.0
+            },
+            "Name": "energyText",
+            "ctype": "TextObjectData"
+          },
+          {
+            "ProgressInfo": 100,
+            "ImageFileData": {
+              "Type": "Normal",
+              "Path": "lobby/lobby_card_progress.png",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.1305,
+              "ScaleY": 0.4391
+            },
+            "Position": {
+              "X": -76.8113,
+              "Y": -167.6653
+            },
+            "Scale": {
+              "ScaleX": 1.6725,
+              "ScaleY": 1.8447
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -92.4712,
+            "RightMargin": -27.5288,
+            "TopMargin": 154.2031,
+            "BottomMargin": -178.2031,
+            "Tag": 161,
+            "ActionTag": -2030458233,
+            "Size": {
+              "X": 120.0,
+              "Y": 24.0
+            },
+            "Name": "progressBar",
+            "ctype": "LoadingBarObjectData"
+          },
+          {
+            "FontSize": 25,
+            "LabelText": "Lv. 23",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/SVN-Supercell Magic.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -1.9789,
+              "Y": -105.8094
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -53.4789,
+            "RightMargin": -49.5211,
+            "TopMargin": 88.8094,
+            "BottomMargin": -122.8094,
+            "Tag": 287,
+            "ActionTag": 560755860,
+            "Size": {
+              "X": 103.0,
+              "Y": 34.0
+            },
+            "Name": "Text_10",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/lobby_card_progress_glow.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -101.8117,
+              "Y": -165.087
+            },
+            "Scale": {
+              "ScaleX": 2.2501,
+              "ScaleY": 1.8095
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -101.8117,
+            "RightMargin": 12.8117,
+            "TopMargin": 153.087,
+            "BottomMargin": -177.087,
+            "Tag": 165,
+            "ActionTag": 1308758102,
+            "Size": {
+              "X": 89.0,
+              "Y": 24.0
+            },
+            "Name": "progressGlow",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/lobby_card_progress_max.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -1.9344,
+              "Y": -164.8561
+            },
+            "Scale": {
+              "ScaleX": 1.6767,
+              "ScaleY": 1.9607
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -61.9344,
+            "RightMargin": -58.0656,
+            "TopMargin": 152.8561,
+            "BottomMargin": -176.8561,
+            "Tag": 13,
+            "ActionTag": -1199037730,
+            "Size": {
+              "X": 120.0,
+              "Y": 24.0
+            },
+            "VisibleForFrame": false,
+            "Name": "progressMax",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "14/20",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/SVN-Supercell Magic.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.3376,
+              "Y": -164.7652
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -40.6624,
+            "RightMargin": -41.3376,
+            "TopMargin": 151.2652,
+            "BottomMargin": -178.2652,
+            "Tag": 151,
+            "ActionTag": 1819343358,
+            "Size": {
+              "X": 82.0,
+              "Y": 27.0
+            },
+            "Name": "progressText",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "card/card_background_1.png",
+        "card/card_border_1.png",
+        "card/card_level.png",
+        "card/card_tower_cannon.png",
+        "common/common_icon_energy.png",
+        "font/SVN-Supercell Magic.ttf",
+        "lobby/lobby_card_progress.png",
+        "lobby/lobby_card_progress_glow.png",
+        "lobby/lobby_card_progress_max.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,500 @@
+{
+  "ID": "243973b2-604c-4269-b6cf-e5e79b0ef98b",
+  "Version": "2.3.4",
+  "Name": "buycarddialog",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 31,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "../common/common_panel_background.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 538.596,
+              "Y": 910.7612
+            },
+            "Scale": {
+              "ScaleX": 1.8799,
+              "ScaleY": 1.8799
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.4987,
+              "Y": 0.4744
+            },
+            "PreSize": {
+              "X": 0.4194,
+              "Y": 0.2047
+            },
+            "LeftMargin": 312.096,
+            "RightMargin": 314.904,
+            "TopMargin": 812.7388,
+            "BottomMargin": 714.2612,
+            "Tag": 38,
+            "ActionTag": -161761382,
+            "Size": {
+              "X": 453.0,
+              "Y": 393.0
+            },
+            "Name": "Card",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "ProgressInfo": 77,
+            "ImageFileData": {
+              "Type": "Default",
+              "Path": "../Default/LoadingBarFile.png",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 538.596,
+              "Y": 1156.0986
+            },
+            "Scale": {
+              "ScaleX": 1.1218,
+              "ScaleY": 3.6295
+            },
+            "CColor": {
+              "R": 57,
+              "G": 136,
+              "B": 206
+            },
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.4987,
+              "Y": 0.6021
+            },
+            "PreSize": {
+              "X": 0.1852,
+              "Y": 0.0073
+            },
+            "LeftMargin": 438.596,
+            "RightMargin": 441.404,
+            "TopMargin": 756.9014,
+            "BottomMargin": 1149.0986,
+            "Tag": 41,
+            "ActionTag": -182690907,
+            "Size": {
+              "X": 200.0,
+              "Y": 14.0
+            },
+            "Name": "ProgressBar",
+            "ctype": "LoadingBarObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "Pháo Cú",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 538.596,
+              "Y": 1225.4138
+            },
+            "Scale": {
+              "ScaleX": 1.4862,
+              "ScaleY": 1.4862
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.4987,
+              "Y": 0.6382
+            },
+            "PreSize": {
+              "X": 0.1287,
+              "Y": 0.0214
+            },
+            "LeftMargin": 469.096,
+            "RightMargin": 471.904,
+            "TopMargin": 674.0862,
+            "BottomMargin": 1204.9138,
+            "Tag": 42,
+            "ActionTag": -2048048449,
+            "Size": {
+              "X": 139.0,
+              "Y": 41.0
+            },
+            "Name": "Title",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 30,
+            "ButtonText": "Value",
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "../common/common_btn_orange.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "../common/common_btn_orange.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "../common/common_btn_orange.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 13,
+            "Scale9OriginY": 13,
+            "Scale9Width": 168,
+            "Scale9Height": 85,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 538.596,
+              "Y": 646.7825
+            },
+            "Scale": {
+              "ScaleX": 1.4982,
+              "ScaleY": 0.8651
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.4987,
+              "Y": 0.3369
+            },
+            "PreSize": {
+              "X": 0.1796,
+              "Y": 0.0578
+            },
+            "LeftMargin": 441.596,
+            "RightMargin": 444.404,
+            "TopMargin": 1217.7175,
+            "BottomMargin": 591.2825,
+            "Tag": 43,
+            "ActionTag": 629087397,
+            "Size": {
+              "X": 194.0,
+              "Y": 111.0
+            },
+            "Name": "BuyButton",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "../Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "../common/common_panel_btn_close.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "../common/common_panel_btn_close.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 17,
+            "Scale9Height": 25,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 890.7849,
+              "Y": 1208.5146
+            },
+            "Scale": {
+              "ScaleX": 1.7438,
+              "ScaleY": 1.7438
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8248,
+              "Y": 0.6294
+            },
+            "PreSize": {
+              "X": 0.0435,
+              "Y": 0.0245
+            },
+            "LeftMargin": 867.2849,
+            "RightMargin": 165.7151,
+            "TopMargin": 687.9854,
+            "BottomMargin": 1185.0146,
+            "CallBackType": "Click",
+            "Tag": 44,
+            "ActionTag": 964785260,
+            "Size": {
+              "X": 47.0,
+              "Y": 47.0
+            },
+            "Name": "CloseButton",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "170/200",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 538.596,
+              "Y": 1156.0984
+            },
+            "Scale": {
+              "ScaleX": 1.0576,
+              "ScaleY": 1.0576
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.4987,
+              "Y": 0.6021
+            },
+            "PreSize": {
+              "X": 0.1204,
+              "Y": 0.0214
+            },
+            "LeftMargin": 473.596,
+            "RightMargin": 476.404,
+            "TopMargin": 743.4016,
+            "BottomMargin": 1135.5984,
+            "Tag": 39,
+            "ActionTag": -891239334,
+            "Size": {
+              "X": 130.0,
+              "Y": 41.0
+            },
+            "Name": "EvolutionProgress",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "../card/card_background_1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 410.5023,
+              "Y": 1154.1687
+            },
+            "Scale": {
+              "ScaleX": 0.4352,
+              "ScaleY": 0.4352
+            },
+            "RotationSkewX": -23.8005,
+            "RotationSkewY": -23.5969,
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3801,
+              "Y": 0.6011
+            },
+            "PreSize": {
+              "X": 0.1093,
+              "Y": 0.0854
+            },
+            "LeftMargin": 351.5023,
+            "RightMargin": 610.4977,
+            "TopMargin": 683.8313,
+            "BottomMargin": 1072.1687,
+            "Tag": 40,
+            "ActionTag": 70102176,
+            "Size": {
+              "X": 118.0,
+              "Y": 164.0
+            },
+            "Name": "CardProgess",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "../card/card_background_1.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "../card/card_background_1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "../card/card_background_1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 88,
+            "Scale9Height": 142,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 538.5962,
+              "Y": 913.5884
+            },
+            "Scale": {
+              "ScaleX": 1.8704,
+              "ScaleY": 1.8704
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4987,
+              "Y": 0.4758
+            },
+            "PreSize": {
+              "X": 0.1093,
+              "Y": 0.0854
+            },
+            "LeftMargin": 479.5962,
+            "RightMargin": 482.4038,
+            "TopMargin": 924.4116,
+            "BottomMargin": 831.5884,
+            "Tag": 30,
+            "ActionTag": 591058255,
+            "Size": {
+              "X": 118.0,
+              "Y": 164.0
+            },
+            "Name": "Thumbnail",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../card/card_background_1.png",
+        "../common/common_btn_orange.png",
+        "../common/common_panel_background.png",
+        "../common/common_panel_btn_close.png",
+        "../Default/Button_Disable.png",
+        "../Default/LoadingBarFile.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

@@ -22,16 +22,51 @@ testnetwork.Connector = cc.Class.extend({
                 this.sendLoginRequest();
                 break;
             case gv.CMD.USER_LOGIN:
+                cc.log(packet);
                 this.sendGetUserInfo();
-                fr.getCurrentScreen().onFinishLogin();
+                fr.view(Lobby);
                 break;
             case gv.CMD.USER_INFO:
-                fr.getCurrentScreen().onUserInfo(packet.name, packet.x, packet.y);
+                //fr.getCurrentScreen().onUserInfo(packet.name, packet.x, packet.y);
                 break;
             case gv.CMD.MOVE:
                 cc.log("MOVE:", packet.x, packet.y);
                 fr.getCurrentScreen().updateMove(packet.x, packet.y);
                 break;
+            
+            
+            //Shop packet
+            case gv.CMD.RENEW_SHOPITEMLIST:
+                var listid = packet.id;
+                var timeStr = packet.timeStr;
+                var time = Date.parse(timeStr);
+                this.renewTimedShopItemList(listid, time);
+                break;
+
+            case gv.CMD.SHOP_BUY:
+                var itemId = packet.itemId;
+                var itemType = packet.itemType;
+                var price = packet.price;
+                var currencyType = packet.currencyType;
+                switch(itemType){
+                    case ShopItemType.Gold:
+                        //Increase gold here
+                        break;
+                    case ShopItemType.Chest:
+                        //Increase chest here
+                        break;
+                    case ShopItemType.Card:
+                        //Increase card here
+                        break;
+                }
+                cc.log("receive buy packet");
+                break;
+            case gv.CMD.UPDATESHOPITEM:
+                var item = packet.item;
+                this.updateShopItem(item);
+            case gv.CMD.UPDATESHOP:
+                var shop = new Shop(packet.shopItemArr);
+                this.updateShop(shop);
         }
     },
     sendGetUserInfo:function()
@@ -52,7 +87,34 @@ testnetwork.Connector = cc.Class.extend({
         var pk = this.gameClient.getOutPacket(CmdSendMove);
         pk.pack(direction);
         this.gameClient.sendPacket(pk);
+    },
+    sendShopBuy: function(itemId){
+        cc.log("SendShopBuy: " + itemId);
+        var pk = this.gameClient.getOutPacket(CmdSendBuy);
+        pk.pack(itemId);
+        this.gameClient.sendPacket(pk);
+    },
+    sendrenewTimedShopItemList: function(listId){
+        var pk = this.gameClient.getOutPacket(CmdSendRenewShopItemList);
+        pk.pack(listId);
+        cc.log("listid = " + listId.toString());
+        this.gameClient.sendPacket(pk);
+    },
+    renewTimedShopItemList: function(listid, time){
+        var shop = fr.getCurrentScreen().shop;
+        var list = shop.getList(listid);
+        list.renew(time);
+    },
+    updateShopItem: function(item){
+        var shop = fr.getCurrentScreen().shop;
+        var _item = shop.getItem(item.id);
+        _item = item;
+    },
+    updateShop: function(shop){
+        fr.getCurrentScreen().shop = shop;
+
     }
+
 });
 
 

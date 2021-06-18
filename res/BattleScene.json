@@ -1,0 +1,2962 @@
+{
+  "ID": "af15795c-09c3-4950-906b-92d4d43da324",
+  "Version": "2.3.4",
+  "Name": "BattleScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 3,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_background.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 348,
+            "Scale9OriginY": 204,
+            "Scale9Width": 360,
+            "Scale9Height": 212,
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 1920.0
+            },
+            "Scale": {
+              "ScaleX": 0.9991,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.5
+            },
+            "BottomMargin": 960.0,
+            "Tag": 4,
+            "ActionTag": -1449847589,
+            "Size": {
+              "X": 1080.0,
+              "Y": 960.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_background.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 348,
+            "Scale9OriginY": 204,
+            "Scale9Width": 360,
+            "Scale9Height": 212,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0002,
+              "Y": 0.1225
+            },
+            "Scale": {
+              "ScaleX": 0.9991,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0001
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.5
+            },
+            "LeftMargin": 0.0002,
+            "RightMargin": -0.0002,
+            "TopMargin": 959.8775,
+            "BottomMargin": 0.1225,
+            "Tag": 6,
+            "ActionTag": -363777829,
+            "Size": {
+              "X": 1080.0,
+              "Y": 960.0
+            },
+            "Name": "Image_1_0",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_river_0000.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 540.0,
+              "Y": 1119.6917
+            },
+            "Scale": {
+              "ScaleX": 0.8812,
+              "ScaleY": 0.8699
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5832
+            },
+            "PreSize": {
+              "X": 0.9426,
+              "Y": 0.1078
+            },
+            "LeftMargin": 31.0,
+            "RightMargin": 31.0,
+            "TopMargin": 696.8083,
+            "BottomMargin": 1016.1917,
+            "Tag": 9,
+            "ActionTag": 1061835138,
+            "Size": {
+              "X": 1018.0,
+              "Y": 207.0
+            },
+            "Name": "map_river_0000_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_river_0000.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 540.0,
+              "Y": 947.5768
+            },
+            "Scale": {
+              "ScaleX": 0.8812,
+              "ScaleY": -0.8898
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4935
+            },
+            "PreSize": {
+              "X": 0.9426,
+              "Y": 0.1078
+            },
+            "LeftMargin": 31.0,
+            "RightMargin": 31.0,
+            "TopMargin": 868.9232,
+            "BottomMargin": 844.0768,
+            "Tag": 12,
+            "ActionTag": 906317187,
+            "Size": {
+              "X": 1018.0,
+              "Y": 207.0
+            },
+            "Name": "map_river_0000_3_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_river_0001.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 539.0862,
+              "Y": 1062.9409
+            },
+            "Scale": {
+              "ScaleX": 0.8856,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4992,
+              "Y": 0.5536
+            },
+            "PreSize": {
+              "X": 0.9426,
+              "Y": 0.1078
+            },
+            "LeftMargin": 30.0862,
+            "RightMargin": 31.9138,
+            "TopMargin": 753.5591,
+            "BottomMargin": 959.4409,
+            "Tag": 16,
+            "ActionTag": -1223566418,
+            "Size": {
+              "X": 1018.0,
+              "Y": 207.0
+            },
+            "Name": "map_river_0001_10",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_background_0002.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 540.0,
+              "Y": 1545.2812
+            },
+            "Scale": {
+              "ScaleX": 1.5636,
+              "ScaleY": 1.5636
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.8048
+            },
+            "PreSize": {
+              "X": 0.5889,
+              "Y": 0.2276
+            },
+            "LeftMargin": 222.0,
+            "RightMargin": 222.0,
+            "TopMargin": 156.2188,
+            "BottomMargin": 1326.7812,
+            "Tag": 7,
+            "ActionTag": 179106396,
+            "Size": {
+              "X": 636.0,
+              "Y": 437.0
+            },
+            "Name": "map_background_0002_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_background_0003.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 539.9999,
+              "Y": 648.8694
+            },
+            "Scale": {
+              "ScaleX": 1.5663,
+              "ScaleY": 1.5663
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.338
+            },
+            "PreSize": {
+              "X": 0.5861,
+              "Y": 0.2255
+            },
+            "LeftMargin": 223.4999,
+            "RightMargin": 223.5001,
+            "TopMargin": 1054.6306,
+            "BottomMargin": 432.3694,
+            "Tag": 8,
+            "ActionTag": 667749087,
+            "Size": {
+              "X": 633.0,
+              "Y": 433.0
+            },
+            "Name": "map_background_0003_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_background_0000.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 544.1816,
+              "Y": 1468.5361
+            },
+            "Scale": {
+              "ScaleX": 1.4319,
+              "ScaleY": 1.4923
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5039,
+              "Y": 0.7649
+            },
+            "PreSize": {
+              "X": 0.4991,
+              "Y": 0.2005
+            },
+            "LeftMargin": 274.6816,
+            "RightMargin": 266.3184,
+            "TopMargin": 258.9639,
+            "BottomMargin": 1276.0361,
+            "Tag": 17,
+            "ActionTag": 1546954306,
+            "Size": {
+              "X": 539.0,
+              "Y": 385.0
+            },
+            "Name": "map_background_0000_11",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_background_0001.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 525.8569,
+              "Y": 698.2523
+            },
+            "Scale": {
+              "ScaleX": 1.4305,
+              "ScaleY": 1.5095
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4869,
+              "Y": 0.3637
+            },
+            "PreSize": {
+              "X": 0.4991,
+              "Y": 0.2005
+            },
+            "HorizontalEdge": "LeftEdge",
+            "VerticalEdge": "TopEdge",
+            "LeftMargin": 256.3569,
+            "RightMargin": 284.6431,
+            "TopMargin": 1029.2477,
+            "BottomMargin": 505.7523,
+            "Tag": 18,
+            "ActionTag": 1836823258,
+            "Size": {
+              "X": 539.0,
+              "Y": 385.0
+            },
+            "Name": "map_background_0001_12",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 158.8725,
+              "Y": 1759.2209
+            },
+            "Scale": {
+              "ScaleX": 1.4302,
+              "ScaleY": 1.5058
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1471,
+              "Y": 0.9163
+            },
+            "PreSize": {
+              "X": 0.4991,
+              "Y": 0.2005
+            },
+            "LeftMargin": 158.8725,
+            "RightMargin": 382.1274,
+            "TopMargin": 160.7791,
+            "BottomMargin": 1374.2209,
+            "Tag": 65,
+            "ActionTag": 378647782,
+            "Size": {
+              "X": 539.0,
+              "Y": 385.0
+            },
+            "Name": "map_cells_enemy",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 140.3031,
+              "Y": 989.0841
+            },
+            "Scale": {
+              "ScaleX": 1.4302,
+              "ScaleY": 1.5058
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1299,
+              "Y": 0.5151
+            },
+            "PreSize": {
+              "X": 0.4991,
+              "Y": 0.2005
+            },
+            "LeftMargin": 140.3031,
+            "RightMargin": 400.6968,
+            "TopMargin": 930.9159,
+            "BottomMargin": 604.0841,
+            "Tag": 64,
+            "ActionTag": 1561956840,
+            "Size": {
+              "X": 539.0,
+              "Y": 385.0
+            },
+            "Name": "map_cells_player",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_0001.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 5.3807,
+              "Y": 1084.0208
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.005,
+              "Y": 0.5646
+            },
+            "PreSize": {
+              "X": 0.2278,
+              "Y": 0.1464
+            },
+            "LeftMargin": -117.6193,
+            "RightMargin": 951.6193,
+            "TopMargin": 695.4792,
+            "BottomMargin": 943.5208,
+            "Tag": 10,
+            "ActionTag": 1402700366,
+            "Size": {
+              "X": 246.0,
+              "Y": 281.0
+            },
+            "Name": "map_decoration_0001_4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_0002.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1099.9526,
+              "Y": 1053.7247
+            },
+            "Scale": {
+              "ScaleX": 1.1809,
+              "ScaleY": 1.1809
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 1.0185,
+              "Y": 0.5488
+            },
+            "PreSize": {
+              "X": 0.2583,
+              "Y": 0.1182
+            },
+            "LeftMargin": 960.4526,
+            "RightMargin": -159.4526,
+            "TopMargin": 752.7753,
+            "BottomMargin": 940.2247,
+            "Tag": 11,
+            "ActionTag": -801995081,
+            "Size": {
+              "X": 279.0,
+              "Y": 227.0
+            },
+            "Name": "map_decoration_0002_5",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_monster_gate_enemy.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 761.1009,
+              "Y": 1094.2407
+            },
+            "Scale": {
+              "ScaleX": 1.7202,
+              "ScaleY": 1.7202
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7047,
+              "Y": 0.5699
+            },
+            "PreSize": {
+              "X": 0.1472,
+              "Y": 0.0651
+            },
+            "LeftMargin": 681.6009,
+            "RightMargin": 239.3991,
+            "TopMargin": 763.2593,
+            "BottomMargin": 1031.7407,
+            "Tag": 13,
+            "ActionTag": 1142294065,
+            "Size": {
+              "X": 159.0,
+              "Y": 125.0
+            },
+            "Name": "map_monster_gate_enemy_7",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_monster_gate_player.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 352.159,
+              "Y": 1080.1372
+            },
+            "Scale": {
+              "ScaleX": 1.7202,
+              "ScaleY": 1.7202
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3261,
+              "Y": 0.5626
+            },
+            "PreSize": {
+              "X": 0.1907,
+              "Y": 0.0802
+            },
+            "LeftMargin": 249.159,
+            "RightMargin": 624.841,
+            "TopMargin": 762.8628,
+            "BottomMargin": 1003.1372,
+            "Tag": 15,
+            "ActionTag": 1497085225,
+            "Size": {
+              "X": 206.0,
+              "Y": 154.0
+            },
+            "Name": "map_monster_gate_player_9",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_grass_0001.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 41.1629,
+              "Y": 1515.6321
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "RotationSkewX": -29.1573,
+            "RotationSkewY": -29.156,
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0381,
+              "Y": 0.7894
+            },
+            "PreSize": {
+              "X": 0.0435,
+              "Y": 0.0172
+            },
+            "LeftMargin": 17.6629,
+            "RightMargin": 1015.3371,
+            "TopMargin": 387.8679,
+            "BottomMargin": 1499.1321,
+            "Tag": 20,
+            "ActionTag": -109644845,
+            "Size": {
+              "X": 47.0,
+              "Y": 33.0
+            },
+            "Name": "map_decoration_grass_0001_14",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_grass_0002.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1023.2384,
+              "Y": 1561.1345
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9474,
+              "Y": 0.8131
+            },
+            "PreSize": {
+              "X": 0.0361,
+              "Y": 0.0198
+            },
+            "LeftMargin": 1003.7384,
+            "RightMargin": 37.2616,
+            "TopMargin": 339.8655,
+            "BottomMargin": 1542.1345,
+            "Tag": 21,
+            "ActionTag": 832618974,
+            "Size": {
+              "X": 39.0,
+              "Y": 38.0
+            },
+            "Name": "map_decoration_grass_0002_15",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_grass_0000.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1016.8696,
+              "Y": 1845.7471
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "RotationSkewX": 29.5159,
+            "RotationSkewY": 29.5081,
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9415,
+              "Y": 0.9613
+            },
+            "PreSize": {
+              "X": 0.063,
+              "Y": 0.0234
+            },
+            "LeftMargin": 982.8696,
+            "RightMargin": 29.1304,
+            "TopMargin": 51.7529,
+            "BottomMargin": 1823.2471,
+            "Tag": 22,
+            "ActionTag": 1582709530,
+            "Size": {
+              "X": 68.0,
+              "Y": 45.0
+            },
+            "Name": "map_decoration_grass_0000_16",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_grass_0001.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1017.4,
+              "Y": 1158.6361
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.942,
+              "Y": 0.6035
+            },
+            "PreSize": {
+              "X": 0.0435,
+              "Y": 0.0172
+            },
+            "LeftMargin": 993.9,
+            "RightMargin": 39.1,
+            "TopMargin": 744.8639,
+            "BottomMargin": 1142.1361,
+            "Tag": 23,
+            "ActionTag": 342084122,
+            "Size": {
+              "X": 47.0,
+              "Y": 33.0
+            },
+            "Name": "map_decoration_grass_0001_17",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_grass_0000.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 103.5576,
+              "Y": 1849.9949
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "RotationSkewX": -26.0345,
+            "RotationSkewY": -26.0384,
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0959,
+              "Y": 0.9635
+            },
+            "PreSize": {
+              "X": 0.063,
+              "Y": 0.0234
+            },
+            "LeftMargin": 69.5576,
+            "RightMargin": 942.4424,
+            "TopMargin": 47.5051,
+            "BottomMargin": 1827.4949,
+            "Tag": 24,
+            "ActionTag": 933366198,
+            "Size": {
+              "X": 68.0,
+              "Y": 45.0
+            },
+            "Name": "map_decoration_grass_0000_18",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_grass_0001.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 802.345,
+              "Y": 1862.739
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7429,
+              "Y": 0.9702
+            },
+            "PreSize": {
+              "X": 0.0435,
+              "Y": 0.0172
+            },
+            "LeftMargin": 778.845,
+            "RightMargin": 254.155,
+            "TopMargin": 40.761,
+            "BottomMargin": 1846.239,
+            "Tag": 25,
+            "ActionTag": -51040468,
+            "Size": {
+              "X": 47.0,
+              "Y": 33.0
+            },
+            "Name": "map_decoration_grass_0001_19",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_grass_0001.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 64.2699,
+              "Y": 939.5756
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0595,
+              "Y": 0.4894
+            },
+            "PreSize": {
+              "X": 0.0435,
+              "Y": 0.0172
+            },
+            "LeftMargin": 40.7699,
+            "RightMargin": 992.2301,
+            "TopMargin": 963.9244,
+            "BottomMargin": 923.0756,
+            "Tag": 26,
+            "ActionTag": 886770683,
+            "Size": {
+              "X": 47.0,
+              "Y": 33.0
+            },
+            "Name": "map_decoration_grass_0001_20",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_grass_0000.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 28.4866,
+              "Y": 627.6047
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0264,
+              "Y": 0.3269
+            },
+            "PreSize": {
+              "X": 0.063,
+              "Y": 0.0234
+            },
+            "LeftMargin": -5.5134,
+            "RightMargin": 1017.5134,
+            "TopMargin": 1269.8953,
+            "BottomMargin": 605.1047,
+            "Tag": 27,
+            "ActionTag": 1238687709,
+            "Size": {
+              "X": 68.0,
+              "Y": 45.0
+            },
+            "Name": "map_decoration_grass_0000_21",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_grass_0001.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1027.656,
+              "Y": 486.5593
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9515,
+              "Y": 0.2534
+            },
+            "PreSize": {
+              "X": 0.0435,
+              "Y": 0.0172
+            },
+            "LeftMargin": 1004.156,
+            "RightMargin": 28.844,
+            "TopMargin": 1416.9407,
+            "BottomMargin": 470.0593,
+            "Tag": 28,
+            "ActionTag": -272884924,
+            "Size": {
+              "X": 47.0,
+              "Y": 33.0
+            },
+            "Name": "map_decoration_grass_0001_22",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_grass_0002.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1027.2695,
+              "Y": 872.0659
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9512,
+              "Y": 0.4542
+            },
+            "PreSize": {
+              "X": 0.0361,
+              "Y": 0.0198
+            },
+            "LeftMargin": 1007.7695,
+            "RightMargin": 33.2305,
+            "TopMargin": 1028.9341,
+            "BottomMargin": 853.0659,
+            "Tag": 29,
+            "ActionTag": -260100982,
+            "Size": {
+              "X": 39.0,
+              "Y": 38.0
+            },
+            "Name": "map_decoration_grass_0002_23",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_grass_0002.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 25.3812,
+              "Y": 351.1946
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0235,
+              "Y": 0.1829
+            },
+            "PreSize": {
+              "X": 0.0361,
+              "Y": 0.0198
+            },
+            "LeftMargin": 5.8812,
+            "RightMargin": 1035.1188,
+            "TopMargin": 1549.8054,
+            "BottomMargin": 332.1946,
+            "Tag": 30,
+            "ActionTag": -2142895601,
+            "Size": {
+              "X": 39.0,
+              "Y": 38.0
+            },
+            "Name": "map_decoration_grass_0002_24",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_grass_0002.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 258.6693,
+              "Y": 359.8349
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2395,
+              "Y": 0.1874
+            },
+            "PreSize": {
+              "X": 0.0361,
+              "Y": 0.0198
+            },
+            "LeftMargin": 239.1693,
+            "RightMargin": 801.8307,
+            "TopMargin": 1541.165,
+            "BottomMargin": 340.8349,
+            "Tag": 31,
+            "ActionTag": 1410248865,
+            "Size": {
+              "X": 39.0,
+              "Y": 38.0
+            },
+            "Name": "map_decoration_grass_0002_25",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_grass_0004.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 40.2175,
+              "Y": 1280.7883
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "RotationSkewX": -62.6391,
+            "RotationSkewY": -62.6455,
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0372,
+              "Y": 0.6671
+            },
+            "PreSize": {
+              "X": 0.0806,
+              "Y": 0.0188
+            },
+            "LeftMargin": -3.2825,
+            "RightMargin": 996.2825,
+            "TopMargin": 621.2117,
+            "BottomMargin": 1262.7883,
+            "Tag": 33,
+            "ActionTag": 1798349622,
+            "Size": {
+              "X": 87.0,
+              "Y": 36.0
+            },
+            "Name": "map_decoration_grass_0004_27",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_grass_0004.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 120.474,
+              "Y": 339.9915
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1115,
+              "Y": 0.1771
+            },
+            "PreSize": {
+              "X": 0.0806,
+              "Y": 0.0188
+            },
+            "LeftMargin": 76.974,
+            "RightMargin": 916.026,
+            "TopMargin": 1562.0085,
+            "BottomMargin": 321.9915,
+            "Tag": 34,
+            "ActionTag": 476361209,
+            "Size": {
+              "X": 87.0,
+              "Y": 36.0
+            },
+            "Name": "map_decoration_grass_0004_28",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_grass_0004.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1031.6648,
+              "Y": 596.9926
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "RotationSkewX": 40.0756,
+            "RotationSkewY": 40.0357,
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9552,
+              "Y": 0.3109
+            },
+            "PreSize": {
+              "X": 0.0806,
+              "Y": 0.0188
+            },
+            "LeftMargin": 988.1648,
+            "RightMargin": 4.8352,
+            "TopMargin": 1305.0073,
+            "BottomMargin": 578.9926,
+            "Tag": 35,
+            "ActionTag": 1405593541,
+            "Size": {
+              "X": 87.0,
+              "Y": 36.0
+            },
+            "Name": "map_decoration_grass_0004_29",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_rock_0001.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 22.6326,
+              "Y": 1861.668
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.021,
+              "Y": 0.9696
+            },
+            "PreSize": {
+              "X": 0.0861,
+              "Y": 0.0536
+            },
+            "LeftMargin": -23.8674,
+            "RightMargin": 1010.8674,
+            "TopMargin": 6.832,
+            "BottomMargin": 1810.168,
+            "Tag": 36,
+            "ActionTag": -407938791,
+            "Size": {
+              "X": 93.0,
+              "Y": 103.0
+            },
+            "Name": "map_decoration_rock_0001_30",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_rock_0003.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 54.4374,
+              "Y": 1212.79
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.4451
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0504,
+              "Y": 0.6317
+            },
+            "PreSize": {
+              "X": 0.0583,
+              "Y": 0.0182
+            },
+            "LeftMargin": 22.9374,
+            "RightMargin": 994.0626,
+            "TopMargin": 689.71,
+            "BottomMargin": 1195.29,
+            "Tag": 37,
+            "ActionTag": 1404124498,
+            "Size": {
+              "X": 63.0,
+              "Y": 35.0
+            },
+            "Name": "map_decoration_rock_0003_31",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_rock_0004.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 912.5307,
+              "Y": 1857.668
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8449,
+              "Y": 0.9675
+            },
+            "PreSize": {
+              "X": 0.0639,
+              "Y": 0.0245
+            },
+            "LeftMargin": 878.0307,
+            "RightMargin": 132.9693,
+            "TopMargin": 38.832,
+            "BottomMargin": 1834.168,
+            "Tag": 38,
+            "ActionTag": -170839410,
+            "Size": {
+              "X": 69.0,
+              "Y": 47.0
+            },
+            "Name": "map_decoration_rock_0004_32",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_rock_0005.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 13.1986,
+              "Y": 455.157
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0122,
+              "Y": 0.2371
+            },
+            "PreSize": {
+              "X": 0.0278,
+              "Y": 0.0109
+            },
+            "LeftMargin": -1.8014,
+            "RightMargin": 1051.8014,
+            "TopMargin": 1454.343,
+            "BottomMargin": 444.657,
+            "Tag": 39,
+            "ActionTag": -1987417133,
+            "Size": {
+              "X": 30.0,
+              "Y": 21.0
+            },
+            "Name": "map_decoration_rock_0005_33",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_rock_0006.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1019.5488,
+              "Y": 423.2391
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.944,
+              "Y": 0.2204
+            },
+            "PreSize": {
+              "X": 0.0481,
+              "Y": 0.0328
+            },
+            "LeftMargin": 993.5488,
+            "RightMargin": 34.4512,
+            "TopMargin": 1465.2609,
+            "BottomMargin": 391.7391,
+            "Tag": 40,
+            "ActionTag": 1936965387,
+            "Size": {
+              "X": 52.0,
+              "Y": 63.0
+            },
+            "Name": "map_decoration_rock_0006_34",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_rock_0006.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1006.5327,
+              "Y": 951.4654
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "RotationSkewX": -54.7802,
+            "RotationSkewY": -54.7831,
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.932,
+              "Y": 0.4956
+            },
+            "PreSize": {
+              "X": 0.0481,
+              "Y": 0.0328
+            },
+            "LeftMargin": 980.5327,
+            "RightMargin": 47.4673,
+            "TopMargin": 937.0346,
+            "BottomMargin": 919.9654,
+            "Tag": 41,
+            "ActionTag": -1168997747,
+            "Size": {
+              "X": 52.0,
+              "Y": 63.0
+            },
+            "Name": "map_decoration_rock_0006_35",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_rock_0001.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1014.4113,
+              "Y": 804.2565
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "RotationSkewX": 52.6986,
+            "RotationSkewY": 52.6986,
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9393,
+              "Y": 0.4189
+            },
+            "PreSize": {
+              "X": 0.0861,
+              "Y": 0.0536
+            },
+            "LeftMargin": 967.9113,
+            "RightMargin": 19.0886,
+            "TopMargin": 1064.2435,
+            "BottomMargin": 752.7565,
+            "Tag": 42,
+            "ActionTag": 813219299,
+            "Size": {
+              "X": 93.0,
+              "Y": 103.0
+            },
+            "Name": "map_decoration_rock_0001_36",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_rock_0003.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 8.7873,
+              "Y": 767.8329
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "RotationSkewX": -3.4616,
+            "RotationSkewY": -3.4642,
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0081,
+              "Y": 0.3999
+            },
+            "PreSize": {
+              "X": 0.0583,
+              "Y": 0.0182
+            },
+            "LeftMargin": -22.7127,
+            "RightMargin": 1039.7126,
+            "TopMargin": 1134.6671,
+            "BottomMargin": 750.3329,
+            "Tag": 43,
+            "ActionTag": 1579300142,
+            "Size": {
+              "X": 63.0,
+              "Y": 35.0
+            },
+            "Name": "map_decoration_rock_0003_37",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_rock_0004.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1069.9591,
+              "Y": 1465.886
+            },
+            "Scale": {
+              "ScaleX": 1.6807,
+              "ScaleY": 1.4674
+            },
+            "RotationSkewX": 0.5672,
+            "RotationSkewY": 0.5659,
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9907,
+              "Y": 0.7635
+            },
+            "PreSize": {
+              "X": 0.0639,
+              "Y": 0.0245
+            },
+            "LeftMargin": 1035.4591,
+            "RightMargin": -24.4591,
+            "TopMargin": 430.614,
+            "BottomMargin": 1442.386,
+            "Tag": 44,
+            "ActionTag": 1032900347,
+            "Size": {
+              "X": 69.0,
+              "Y": 47.0
+            },
+            "Name": "map_decoration_rock_0004_38",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0002.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 24.645,
+              "Y": 1723.9556
+            },
+            "Scale": {
+              "ScaleX": 1.6474,
+              "ScaleY": 1.6474
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0228,
+              "Y": 0.8979
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": -47.855,
+            "RightMargin": 982.855,
+            "TopMargin": 111.0444,
+            "BottomMargin": 1638.9556,
+            "Tag": 45,
+            "ActionTag": 31542481,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0002_39",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0003.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1057.55,
+              "Y": 1737.9789
+            },
+            "Scale": {
+              "ScaleX": 1.2344,
+              "ScaleY": 1.2344
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9792,
+              "Y": 0.9052
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": 985.05,
+            "RightMargin": -50.05,
+            "TopMargin": 97.0211,
+            "BottomMargin": 1652.9789,
+            "Tag": 46,
+            "ActionTag": -1032295674,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0003_40",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0004.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.394,
+              "ScaleY": 0.7805
+            },
+            "Position": {
+              "X": 1079.9261,
+              "Y": 1481.6083
+            },
+            "Scale": {
+              "ScaleX": -0.7509,
+              "ScaleY": 0.8676
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9999,
+              "Y": 0.7717
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": 1022.7961,
+            "RightMargin": -87.7961,
+            "TopMargin": 401.0767,
+            "BottomMargin": 1348.9233,
+            "Tag": 47,
+            "ActionTag": -50884712,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0004_41",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0004.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 6.1819,
+              "Y": 1604.1648
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0057,
+              "Y": 0.8355
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": -66.3181,
+            "RightMargin": 1001.3181,
+            "TopMargin": 230.8352,
+            "BottomMargin": 1519.1648,
+            "Tag": 48,
+            "ActionTag": -999906416,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0004_42",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0002.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1076.6637,
+              "Y": 1636.0251
+            },
+            "Scale": {
+              "ScaleX": 1.3223,
+              "ScaleY": 1.3998
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9969,
+              "Y": 0.8521
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": 1004.1637,
+            "RightMargin": -69.1637,
+            "TopMargin": 198.9749,
+            "BottomMargin": 1551.0251,
+            "Tag": 49,
+            "ActionTag": -1946394448,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0002_43",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0001.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1074.5409,
+              "Y": 1559.5616
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9949,
+              "Y": 0.8123
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": 1002.0409,
+            "RightMargin": -67.0409,
+            "TopMargin": 275.4384,
+            "BottomMargin": 1474.5616,
+            "Tag": 50,
+            "ActionTag": 182776536,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0001_44",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0002.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1067.1274,
+              "Y": 1358.7417
+            },
+            "Scale": {
+              "ScaleX": -0.9419,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9881,
+              "Y": 0.7077
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": 994.6274,
+            "RightMargin": -59.6274,
+            "TopMargin": 476.2583,
+            "BottomMargin": 1273.7417,
+            "Tag": 51,
+            "ActionTag": -587569855,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0002_45",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0003.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1083.4658,
+              "Y": 1263.9695
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 1.0032,
+              "Y": 0.6583
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": 1010.9658,
+            "RightMargin": -75.9658,
+            "TopMargin": 571.0305,
+            "BottomMargin": 1178.9695,
+            "Tag": 52,
+            "ActionTag": -27711966,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0003_46",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0003.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 9.5995,
+              "Y": 1481.3671
+            },
+            "Scale": {
+              "ScaleX": -0.8497,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0089,
+              "Y": 0.7715
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": -62.9005,
+            "RightMargin": 997.9005,
+            "TopMargin": 353.6329,
+            "BottomMargin": 1396.3671,
+            "Tag": 53,
+            "ActionTag": 967355651,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0003_46_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0002.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 46.5809,
+              "Y": 1387.9194
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0431,
+              "Y": 0.7229
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": -25.9191,
+            "RightMargin": 960.9191,
+            "TopMargin": 447.0806,
+            "BottomMargin": 1302.9194,
+            "Tag": 54,
+            "ActionTag": -1009385397,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0002_48",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0003.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 180.0617,
+              "Y": 1904.4454
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1667,
+              "Y": 0.9919
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": 107.5617,
+            "RightMargin": 827.4383,
+            "TopMargin": -69.4454,
+            "BottomMargin": 1819.4454,
+            "Tag": 55,
+            "ActionTag": 1812554911,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0003_49",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0004.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 523.1974,
+              "Y": 1905.5457
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4844,
+              "Y": 0.9925
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": 450.6974,
+            "RightMargin": 484.3026,
+            "TopMargin": -70.5457,
+            "BottomMargin": 1820.5457,
+            "Tag": 56,
+            "ActionTag": -1202701352,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0004_50",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0001.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 731.2936,
+              "Y": 1896.6941
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6771,
+              "Y": 0.9879
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": 658.7936,
+            "RightMargin": 276.2064,
+            "TopMargin": -61.6941,
+            "BottomMargin": 1811.6941,
+            "Tag": 57,
+            "ActionTag": -73967485,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0001_51",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0002.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1039.0076,
+              "Y": 1913.3009
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.962,
+              "Y": 0.9965
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": 966.5076,
+            "RightMargin": -31.5076,
+            "TopMargin": -78.3009,
+            "BottomMargin": 1828.3009,
+            "Tag": 58,
+            "ActionTag": -590328464,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0002_52",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0003.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1063.385,
+              "Y": 758.3641
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9846,
+              "Y": 0.395
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": 990.885,
+            "RightMargin": -55.885,
+            "TopMargin": 1076.636,
+            "BottomMargin": 673.3641,
+            "Tag": 59,
+            "ActionTag": -644810589,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0003_53",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0004.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1031.1846,
+              "Y": 929.2969
+            },
+            "Scale": {
+              "ScaleX": 0.7099,
+              "ScaleY": 0.7099
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9548,
+              "Y": 0.484
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": 958.6846,
+            "RightMargin": -23.6846,
+            "TopMargin": 905.7031,
+            "BottomMargin": 844.2969,
+            "Tag": 60,
+            "ActionTag": -489449121,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0004_54",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0002.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1063.104,
+              "Y": 580.6158
+            },
+            "Scale": {
+              "ScaleX": -1.1832,
+              "ScaleY": 1.0651
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9844,
+              "Y": 0.3024
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": 990.604,
+            "RightMargin": -55.604,
+            "TopMargin": 1254.3843,
+            "BottomMargin": 495.6158,
+            "Tag": 61,
+            "ActionTag": 5427006,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0002_55",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0001.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1081.8107,
+              "Y": 481.4894
+            },
+            "Scale": {
+              "ScaleX": -0.872,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 1.0017,
+              "Y": 0.2508
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": 1009.3107,
+            "RightMargin": -74.3107,
+            "TopMargin": 1353.5106,
+            "BottomMargin": 396.4894,
+            "Tag": 62,
+            "ActionTag": 355145446,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0001_56",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0003.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1064.0687,
+              "Y": 338.3938
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9852,
+              "Y": 0.1762
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": 991.5687,
+            "RightMargin": -56.5687,
+            "TopMargin": 1496.6062,
+            "BottomMargin": 253.3938,
+            "Tag": 63,
+            "ActionTag": -1315656690,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0003_57",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0002.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 972.1189,
+              "Y": 355.8268
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9001,
+              "Y": 0.1853
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": 899.6189,
+            "RightMargin": 35.3811,
+            "TopMargin": 1479.1732,
+            "BottomMargin": 270.8268,
+            "Tag": 64,
+            "ActionTag": 1400619772,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0002_58",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0004.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 322.3248,
+              "Y": 339.8861
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2984,
+              "Y": 0.177
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": 249.8248,
+            "RightMargin": 685.1752,
+            "TopMargin": 1495.1139,
+            "BottomMargin": 254.8861,
+            "Tag": 65,
+            "ActionTag": 458764791,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0004_59",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0001.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 43.7661,
+              "Y": 557.5245
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0405,
+              "Y": 0.2904
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": -28.7339,
+            "RightMargin": 963.7339,
+            "TopMargin": 1277.4756,
+            "BottomMargin": 472.5245,
+            "Tag": 66,
+            "ActionTag": -931820706,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0001_60",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0003.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 75.7679,
+              "Y": 432.5668
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0702,
+              "Y": 0.2253
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": 3.2679,
+            "RightMargin": 931.7321,
+            "TopMargin": 1402.4332,
+            "BottomMargin": 347.5668,
+            "Tag": 67,
+            "ActionTag": 736876706,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0003_61",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0003.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 6.3362,
+              "Y": 890.2922
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0059,
+              "Y": 0.4637
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": -66.1638,
+            "RightMargin": 1001.1638,
+            "TopMargin": 944.7078,
+            "BottomMargin": 805.2922,
+            "Tag": 68,
+            "ActionTag": 722419993,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0003_62",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map/map_decoration_tree_0002.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 10.4583,
+              "Y": 718.5511
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0097,
+              "Y": 0.3742
+            },
+            "PreSize": {
+              "X": 0.1343,
+              "Y": 0.0885
+            },
+            "LeftMargin": -62.0417,
+            "RightMargin": 997.0417,
+            "TopMargin": 1116.449,
+            "BottomMargin": 633.5511,
+            "Tag": 69,
+            "ActionTag": -98801144,
+            "Size": {
+              "X": 145.0,
+              "Y": 170.0
+            },
+            "Name": "map_decoration_tree_0002_63",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "map_background.png",
+        "map_background_0000.png",
+        "map_background_0001.png",
+        "map_background_0002.png",
+        "map_background_0003.png",
+        "map_decoration_0001.png",
+        "map_decoration_0002.png",
+        "map_decoration_grass_0000.png",
+        "map_decoration_grass_0001.png",
+        "map_decoration_grass_0002.png",
+        "map_decoration_grass_0004.png",
+        "map_decoration_rock_0001.png",
+        "map_decoration_rock_0003.png",
+        "map_decoration_rock_0004.png",
+        "map_decoration_rock_0005.png",
+        "map_decoration_rock_0006.png",
+        "map_decoration_tree_0001.png",
+        "map_decoration_tree_0002.png",
+        "map_decoration_tree_0003.png",
+        "map_decoration_tree_0004.png",
+        "map_monster_gate_enemy.png",
+        "map_monster_gate_player.png",
+        "map_river_0000.png",
+        "map_river_0001.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

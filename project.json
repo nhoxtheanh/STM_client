@@ -37,12 +37,44 @@
         "src/base/network/GameClientListener.js",
         "src/base/network/InPacketFactory.js",
         "src/base/Resource.js",
+        "src/base/Button.js",
         "src/base/UIFactory.js",
+
         "src/modules/animation/ScreenDragonbones.js",
         "src/modules/localization/ScreenLocalization.js",
         "src/modules/mainmenu/ScreenMenu.js",
         "src/modules/testnetwork/network/Network.js",
         "src/modules/testnetwork/network/Packet.js",
-        "src/modules/testnetwork/ScreenNetwork.js"
+        "src/modules/testnetwork/ScreenNetwork.js",
+        
+        "src/modules/battle/Topographic.js",
+        "src/modules/battle/Monster.js",
+        "src/modules/battle/ScreenBattle.js",
+        "src/modules/battle/Utility.js",
+        "src/modules/battle/BattleScene.js",
+        "src/modules/battle/GamePlayManager.js",
+        "src/modules/battle/astar.js",
+
+        "src/modules/loginAndLobby/LoginView.js",
+        "src/modules/loginAndLobby/Lobby.js",
+        "src/modules/loginAndLobby/BattleScreen.js",
+        "src/modules/loginAndLobby/Inventory.js",
+        "src/modules/loginAndLobby/CardList.js",
+        "src/modules/loginAndLobby/Card.js",
+        "src/modules/loginAndLobby/Chest.js",
+        "src/modules/loginAndLobby/ChestBox.js",
+
+        "src/modules/currency/Currency.js",
+
+        "src/modules/dialog/Dialog.js",
+
+        "src/modules/shop/ShopItem.js",
+        "src/modules/shop/ShopItemGold.js",
+        "src/modules/shop/ShopItemChest.js",
+        "src/modules/shop/ShopItemCard.js",
+        "src/modules/shop/ShopItemList.js",
+        "src/modules/shop/TimedShopItemList.js",
+        "src/modules/shop/Shop.js",
+        "src/modules/shop/ShopManager.js"
     ]
 }

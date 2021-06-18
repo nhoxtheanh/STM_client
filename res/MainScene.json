@@ -1,0 +1,330 @@
+{
+  "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
+  "Version": "2.3.4",
+  "Name": "MainScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "common_panel_background.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 540.0,
+              "Y": 910.656
+            },
+            "Scale": {
+              "ScaleX": 1.2742,
+              "ScaleY": 1.2742
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4743
+            },
+            "PreSize": {
+              "X": 0.4194,
+              "Y": 0.2047
+            },
+            "LeftMargin": 313.5,
+            "RightMargin": 313.5,
+            "TopMargin": 812.844,
+            "BottomMargin": 714.156,
+            "Tag": 3,
+            "ActionTag": 1529596454,
+            "Size": {
+              "X": 453.0,
+              "Y": 393.0
+            },
+            "Name": "common_panel_background_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "common_treasure.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 540.0,
+              "Y": 1158.3359
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.6033
+            },
+            "PreSize": {
+              "X": 0.2037,
+              "Y": 0.1047
+            },
+            "LeftMargin": 430.0,
+            "RightMargin": 430.0,
+            "TopMargin": 661.1641,
+            "BottomMargin": 1057.8359,
+            "Tag": 7,
+            "ActionTag": -1886252288,
+            "Size": {
+              "X": 220.0,
+              "Y": 201.0
+            },
+            "Name": "common_treasure_5",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 48,
+            "LabelText": "Rương gỗ\nRừng Thiên",
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "ShadowEnabled": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 540.0,
+              "Y": 998.2924
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5199
+            },
+            "PreSize": {
+              "X": 0.2333,
+              "Y": 0.0573
+            },
+            "LeftMargin": 414.0,
+            "RightMargin": 414.0,
+            "TopMargin": 866.7075,
+            "BottomMargin": 943.2924,
+            "Tag": 9,
+            "ActionTag": -364752049,
+            "Size": {
+              "X": 252.0,
+              "Y": 110.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 30,
+            "ButtonText": "Value",
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "common_btn_orange.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 13,
+            "Scale9OriginY": 13,
+            "Scale9Width": 168,
+            "Scale9Height": 85,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 540.0,
+              "Y": 731.7679
+            },
+            "Scale": {
+              "ScaleX": 1.0155,
+              "ScaleY": 0.5864
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.3811
+            },
+            "PreSize": {
+              "X": 0.1796,
+              "Y": 0.0578
+            },
+            "LeftMargin": 443.0,
+            "RightMargin": 443.0,
+            "TopMargin": 1132.7322,
+            "BottomMargin": 676.2679,
+            "Tag": 12,
+            "ActionTag": -1846156317,
+            "Size": {
+              "X": 194.0,
+              "Y": 111.0
+            },
+            "Name": "Value",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "common_panel_btn_close.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "common_panel_btn_close.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 17,
+            "Scale9Height": 25,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 776.2371,
+              "Y": 1108.3759
+            },
+            "Scale": {
+              "ScaleX": 1.1733,
+              "ScaleY": 1.1733
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7187,
+              "Y": 0.5773
+            },
+            "PreSize": {
+              "X": 0.0435,
+              "Y": 0.0245
+            },
+            "LeftMargin": 752.7371,
+            "RightMargin": 280.2629,
+            "TopMargin": 788.1241,
+            "BottomMargin": 1084.8759,
+            "CallBackType": "Click",
+            "Tag": 13,
+            "ActionTag": 1163469109,
+            "Size": {
+              "X": 47.0,
+              "Y": 47.0
+            },
+            "Name": "Button_2",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "common_btn_orange.png",
+        "common_panel_background.png",
+        "common_panel_btn_close.png",
+        "common_treasure.png",
+        "Default/Button_Disable.png",
+        "Default/Button_Press.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

@@ -1,0 +1,702 @@
+{
+  "ID": "64701fef-b226-4f0c-9a26-dcaa540ace26",
+  "Version": "2.3.4",
+  "Name": "BattleLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1561,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "common/common_icon_trophy.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 742.7919,
+              "Y": 1661.5569
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6878,
+              "Y": 0.8654
+            },
+            "PreSize": {
+              "X": 0.1,
+              "Y": 0.0547
+            },
+            "LeftMargin": 688.7919,
+            "RightMargin": 283.2081,
+            "TopMargin": 205.9431,
+            "BottomMargin": 1609.0569,
+            "Tag": 1562,
+            "ActionTag": 255720405,
+            "Size": {
+              "X": 108.0,
+              "Y": 105.0
+            },
+            "Name": "common_icon_trophy_27",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "common/common_tooltip_box.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 886.7052,
+              "Y": 1664.0657
+            },
+            "Scale": {
+              "ScaleX": 2.5322,
+              "ScaleY": 0.7747
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.821,
+              "Y": 0.8667
+            },
+            "PreSize": {
+              "X": 0.0926,
+              "Y": 0.0521
+            },
+            "LeftMargin": 836.7052,
+            "RightMargin": 143.2948,
+            "TopMargin": 205.9343,
+            "BottomMargin": 1614.0657,
+            "Tag": 1563,
+            "ActionTag": -502978935,
+            "Size": {
+              "X": 100.0,
+              "Y": 100.0
+            },
+            "Name": "common_tooltip_box_17_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "common/common_avatar_border.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 109.6377,
+              "Y": 1666.0559
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1015,
+              "Y": 0.8677
+            },
+            "PreSize": {
+              "X": 0.125,
+              "Y": 0.076
+            },
+            "LeftMargin": 42.1377,
+            "RightMargin": 902.8623,
+            "TopMargin": 180.9441,
+            "BottomMargin": 1593.0559,
+            "Tag": 1564,
+            "ActionTag": 1456616113,
+            "Size": {
+              "X": 135.0,
+              "Y": 146.0
+            },
+            "Name": "common_avatar_border_22",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/lobby_home_playaer.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 545.1869,
+              "Y": 1650.8716
+            },
+            "Scale": {
+              "ScaleX": 1.7123,
+              "ScaleY": 1.6932
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5048,
+              "Y": 0.8598
+            },
+            "PreSize": {
+              "X": 0.5852,
+              "Y": 0.0646
+            },
+            "LeftMargin": 229.1869,
+            "RightMargin": 218.8131,
+            "TopMargin": 207.1284,
+            "BottomMargin": 1588.8716,
+            "Tag": 1565,
+            "ActionTag": 101329460,
+            "Size": {
+              "X": 632.0,
+              "Y": 124.0
+            },
+            "Name": "lobby_home_playaer_15",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "common/common_arena_forest.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 540.56,
+              "Y": 1218.0212
+            },
+            "Scale": {
+              "ScaleX": 0.7763,
+              "ScaleY": 0.844
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5005,
+              "Y": 0.6344
+            },
+            "PreSize": {
+              "X": 0.5602,
+              "Y": 0.3292
+            },
+            "LeftMargin": 238.06,
+            "RightMargin": 236.94,
+            "TopMargin": 385.9788,
+            "BottomMargin": 902.0212,
+            "Tag": 1566,
+            "ActionTag": 1514337107,
+            "Size": {
+              "X": 605.0,
+              "Y": 632.0
+            },
+            "Name": "common_arena_forest_13",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/lobby_home_btn_battle_txt.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 546.1002,
+              "Y": 866.3572
+            },
+            "Scale": {
+              "ScaleX": 1.5237,
+              "ScaleY": 1.7875
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5056,
+              "Y": 0.4512
+            },
+            "PreSize": {
+              "X": 0.2148,
+              "Y": 0.0281
+            },
+            "LeftMargin": 430.1002,
+            "RightMargin": 417.8998,
+            "TopMargin": 1026.6428,
+            "BottomMargin": 839.3572,
+            "Tag": 1567,
+            "ActionTag": -453543403,
+            "Size": {
+              "X": 232.0,
+              "Y": 54.0
+            },
+            "Name": "lobby_home_btn_battle_txt_12",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "lobby/lobby_home_btn_battle_pressing.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "lobby/lobby_home_btn_battle.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 387,
+            "Scale9Height": 159,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 548.1987,
+              "Y": 796.1191
+            },
+            "Scale": {
+              "ScaleX": 1.1019,
+              "ScaleY": 1.5801
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5076,
+              "Y": 0.4146
+            },
+            "PreSize": {
+              "X": 0.3861,
+              "Y": 0.0943
+            },
+            "LeftMargin": 339.6987,
+            "RightMargin": 323.3013,
+            "TopMargin": 1033.3809,
+            "BottomMargin": 705.6191,
+            "Tag": 1568,
+            "ActionTag": -1624320956,
+            "Size": {
+              "X": 417.0,
+              "Y": 181.0
+            },
+            "Name": "Button_16",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/lobby_home_btn_battle_txt.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 546.1002,
+              "Y": 838.6154
+            },
+            "Scale": {
+              "ScaleX": 1.5237,
+              "ScaleY": 1.7875
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5056,
+              "Y": 0.4368
+            },
+            "PreSize": {
+              "X": 0.2148,
+              "Y": 0.0281
+            },
+            "LeftMargin": 430.1002,
+            "RightMargin": 417.8998,
+            "TopMargin": 1054.3845,
+            "BottomMargin": 811.6154,
+            "Tag": 1641,
+            "ActionTag": -1604808645,
+            "Size": {
+              "X": 232.0,
+              "Y": 54.0
+            },
+            "Name": "lobby_home_btn_battle_txt_12_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "common/common_tooltip_box.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 886.7052,
+              "Y": 1664.0657
+            },
+            "Scale": {
+              "ScaleX": 2.5322,
+              "ScaleY": 0.7747
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.821,
+              "Y": 0.8667
+            },
+            "PreSize": {
+              "X": 0.0926,
+              "Y": 0.0521
+            },
+            "LeftMargin": 836.7052,
+            "RightMargin": 143.2948,
+            "TopMargin": 205.9343,
+            "BottomMargin": 1614.0657,
+            "Tag": 1643,
+            "ActionTag": 34715588,
+            "Size": {
+              "X": 100.0,
+              "Y": 100.0
+            },
+            "Name": "common_tooltip_box_17_0_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "common/common_icon_trophy.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 753.3339,
+              "Y": 1661.5552
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6975,
+              "Y": 0.8654
+            },
+            "PreSize": {
+              "X": 0.1,
+              "Y": 0.0547
+            },
+            "LeftMargin": 699.3339,
+            "RightMargin": 272.6661,
+            "TopMargin": 205.9448,
+            "BottomMargin": 1609.0552,
+            "Tag": 1642,
+            "ActionTag": -1710445483,
+            "Size": {
+              "X": 108.0,
+              "Y": 105.0
+            },
+            "Name": "common_icon_trophy_27_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "common/common_avatar_border.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 109.6377,
+              "Y": 1666.0559
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1015,
+              "Y": 0.8677
+            },
+            "PreSize": {
+              "X": 0.125,
+              "Y": 0.076
+            },
+            "LeftMargin": 42.1377,
+            "RightMargin": 902.8623,
+            "TopMargin": 180.9441,
+            "BottomMargin": 1593.0559,
+            "Tag": 1644,
+            "ActionTag": 402103525,
+            "Size": {
+              "X": 135.0,
+              "Y": 146.0
+            },
+            "Name": "common_avatar_border_22_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "common/common_avatar.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 107.3857,
+              "Y": 1670.5435
+            },
+            "Scale": {
+              "ScaleX": 2.9487,
+              "ScaleY": 2.8269
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0994,
+              "Y": 0.8701
+            },
+            "PreSize": {
+              "X": 0.0343,
+              "Y": 0.0193
+            },
+            "LeftMargin": 88.8857,
+            "RightMargin": 954.1143,
+            "TopMargin": 230.9565,
+            "BottomMargin": 1652.0435,
+            "Tag": 1645,
+            "ActionTag": -439957577,
+            "Size": {
+              "X": 37.0,
+              "Y": 37.0
+            },
+            "Name": "common_avatar_21",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "ChessBox.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 2.4092,
+              "Y": 9.1395
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0022,
+              "Y": 0.0048
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": 2.4092,
+            "RightMargin": -2.4092,
+            "TopMargin": -9.1394,
+            "BottomMargin": 9.1395,
+            "Tag": 620,
+            "ActionTag": -1796158551,
+            "Size": {
+              "X": 1080.0,
+              "Y": 1920.0
+            },
+            "Name": "FileNode_5",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "0",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 893.7218,
+              "Y": 1666.3608
+            },
+            "Scale": {
+              "ScaleX": 1.7947,
+              "ScaleY": 2.1518
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8275,
+              "Y": 0.8679
+            },
+            "PreSize": {
+              "X": 0.0102,
+              "Y": 0.012
+            },
+            "LeftMargin": 888.2218,
+            "RightMargin": 180.7782,
+            "TopMargin": 242.1392,
+            "BottomMargin": 1654.8608,
+            "Tag": 286,
+            "ActionTag": -463607857,
+            "Size": {
+              "X": 11.0,
+              "Y": 23.0
+            },
+            "Name": "danhVongText",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "ChessBox.json",
+        "common/common_arena_forest.png",
+        "common/common_avatar.png",
+        "common/common_avatar_border.png",
+        "common/common_icon_trophy.png",
+        "common/common_tooltip_box.png",
+        "Default/Button_Disable.png",
+        "lobby/lobby_home_btn_battle.png",
+        "lobby/lobby_home_btn_battle_pressing.png",
+        "lobby/lobby_home_btn_battle_txt.png",
+        "lobby/lobby_home_playaer.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

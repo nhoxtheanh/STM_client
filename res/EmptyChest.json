@@ -1,0 +1,134 @@
+{
+  "ID": "da42e369-751e-4478-b7cf-4aa73b85df6d",
+  "Version": "2.3.4",
+  "Name": "EmptyChest",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 417,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/lobby_home_treasure_empty.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.6,
+              "ScaleY": 1.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -71.5,
+            "RightMargin": -71.5,
+            "TopMargin": -92.0,
+            "BottomMargin": -92.0,
+            "Tag": 2835,
+            "ActionTag": 1449914049,
+            "Size": {
+              "X": 143.0,
+              "Y": 184.0
+            },
+            "Name": "Chest_BG",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 50,
+            "LabelText": "Ô trống",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/SVN-Supercell Magic.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -0.0278,
+              "Y": 3.5411
+            },
+            "Scale": {
+              "ScaleX": 0.6452,
+              "ScaleY": 0.712
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -143.5278,
+            "RightMargin": -143.4722,
+            "TopMargin": -37.5411,
+            "BottomMargin": -30.4589,
+            "Tag": 2837,
+            "ActionTag": 1695570795,
+            "Size": {
+              "X": 287.0,
+              "Y": 68.0
+            },
+            "Name": "Text_1_0",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "font/SVN-Supercell Magic.ttf",
+        "lobby/lobby_home_treasure_empty.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

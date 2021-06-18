@@ -1,0 +1,135 @@
+{
+  "ID": "9ce6683c-5174-48f6-817e-b2889041832c",
+  "Version": "2.3.4",
+  "Name": "Dialog",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 6,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/lobby_card_progress_max.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -1.9344,
+              "Y": -164.8561
+            },
+            "Scale": {
+              "ScaleX": 1.6767,
+              "ScaleY": 1.9607
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -61.9344,
+            "RightMargin": -58.0656,
+            "TopMargin": 152.8561,
+            "BottomMargin": -176.8561,
+            "Tag": 13,
+            "ActionTag": -1199037730,
+            "Size": {
+              "X": 120.0,
+              "Y": 24.0
+            },
+            "VisibleForFrame": false,
+            "Name": "progressMax",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "Bạn chưa nhập ID",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/SVN-Supercell Magic.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 2.3337,
+              "ScaleY": 4.6884
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -126.0,
+            "RightMargin": -126.0,
+            "TopMargin": -13.5,
+            "BottomMargin": -13.5,
+            "Tag": 75,
+            "ActionTag": -1572866968,
+            "Size": {
+              "X": 252.0,
+              "Y": 27.0
+            },
+            "Name": "dialogText",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "font/SVN-Supercell Magic.ttf",
+        "lobby/lobby_card_progress_max.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}
