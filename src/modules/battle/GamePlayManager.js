@@ -7,7 +7,7 @@ var GamePlayManager = cc.Class.extend({
     _monsters: [], // Monster Array
     _towers: [], // Tower Array
     _spells: [], // Spell Array
-    _obstacleCount: 5,
+    _obstacleCount: 0,
     _obstacles: [], // obstacles array
     _obstaclesMap: [], // 1D or 2D array store info obstacles on the map (used to find path)
     _monsterSpawnPosition: null, // cc.p First position of monster when spawn (should read from config map)
@@ -108,7 +108,7 @@ var GamePlayManager = cc.Class.extend({
     addNewMonster: function() {
         var monst;
         var monsterPos = 0;
-        var monsterType = this._utility.randomInt(1,4);//(1,4)
+        var monsterType = this._utility.randomInt(1,3);//(1,4)
         var xPos = this._utility.convertCellIndexToCoord(monsterPos).x;
         var yPos = this._utility.convertCellIndexToCoord(monsterPos).y;
         switch (monsterType) {

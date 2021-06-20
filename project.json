@@ -54,6 +54,8 @@
         "src/modules/battle/BattleScene.js",
         "src/modules/battle/GamePlayManager.js",
         "src/modules/battle/astar.js",
+        "src/modules/battle/animation.js",
+
 
         "src/modules/loginAndLobby/LoginView.js",
         "src/modules/loginAndLobby/Lobby.js",
