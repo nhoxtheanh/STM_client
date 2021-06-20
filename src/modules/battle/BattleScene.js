@@ -20,6 +20,8 @@ var Battle = cc.Layer.extend({
     _player_house: null,
     _enemy_house: null,
     _pathCells: [], // mảng chứa các ô của đường đi
+    scrSize: null,
+    _GPM: null,
 	
     ctor:function () 
 	{
@@ -31,7 +33,7 @@ var Battle = cc.Layer.extend({
 	{
 		//set name for this instance
 		this.setName("BattleLayer_" + ((Math.random()*100)>>0));
-		
+        
         // load background từ json
 		var json_battle = ccs.load(battle_scene_res.battle_scene_json);
 		this._battle_ui = json_battle.node;
@@ -126,6 +128,8 @@ var Battle = cc.Layer.extend({
         this._player_house = this.addSprite(battle_res.map_house, this.playerMapStartX + this.cellSize*this._cellsPerRow, this.playerMapStartY - this.cellSize*this._cellsPerCol);
         this._player_house.setAnchorPoint(0.8,0);
         this._player_house.setLocalZOrder(10);
+        // button back to lobby
+        btnBackToLobby = this.addSprite(battle_res.btn_back_to_lobby, this.scrSize.width*0.9, 100); /// tạm thời
     },
     startGame: function() {
         this._GPM.onStartGame();
@@ -138,12 +142,16 @@ var Battle = cc.Layer.extend({
         const cThis = this;
         cc.eventManager.addListener({
             event: cc.EventListener.TOUCH_ONE_BY_ONE,
-            onTouchBegan: function(touch, event){// chỗ này bị gọi 2 lần khi click
+            swallowTouches: true,
+            onTouchBegan: function(touch, event){
                 var xPos = touch.getLocation().x;
                 var yPos = touch.getLocation().y;
                 if (cThis._GPM._gameState === 1) {
                     if (cThis._GPM._utility.isInsideBattleMap(xPos, yPos)) {
                         cThis._GPM.checkConditionAndBuildTower(xPos, yPos);
+                    }
+                    else if (yPos < 100) {
+                        fr.view(BattleScene);
                     }
                 }
                 return true;
@@ -168,6 +176,10 @@ var Battle = cc.Layer.extend({
         sprite.setLocalZOrder(zOrder);
         this.addChild(sprite);
         return sprite;
-    }
+    },
+    onRemoved:function()
+    {
+        fr.unloadAllAnimationData(this);
+    },
 });
 

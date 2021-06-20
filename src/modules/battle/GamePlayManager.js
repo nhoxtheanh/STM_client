@@ -92,10 +92,11 @@ var GamePlayManager = cc.Class.extend({
     generateMonsters:function()
     {
         const cThis = this;
-        var interval = setInterval(function () {
-            if (cThis._gameState != 2)
-                cThis.addNewMonster();
-        }, 2000);
+        // var interval = setInterval(function () {
+        //     if (cThis._gameState != 2)
+        //         cThis.addNewMonster();
+        // }, 2000);
+        cThis.addNewMonster();
         // var levelInterval = setInterval(function () {
         //     if (cThis._gameState === 1){
         //         cThis.checkSystemAndPlaySound(battle_sound.ingame_next_wave);
@@ -129,7 +130,7 @@ var GamePlayManager = cc.Class.extend({
     },
     moveAllMonsters: function() {
         const cThis = this;
-        for (var index = this._monsters.length - 1; index >= 0; index--) {
+        for (var index = this._monsters.length - 1; index >= 0; index--) {   // logic chỗ này có thể sẽ dời sang thành method của monster
             var monst = this._monsters[index];
             var xPos = monst._img.getPositionX();
             var yPos = monst._img.getPositionY();
@@ -141,15 +142,41 @@ var GamePlayManager = cc.Class.extend({
             else if (monst._milestone < cThis._mainPathCoord.length - 1) {
                 var milestoneX = cThis._mainPathCoord[monst._milestone].x;
                 var milestoneY = cThis._mainPathCoord[monst._milestone].y
-                if (Math.max(milestoneX - xPos,0) > Math.max(yPos - milestoneY,0) && !(xPos>milestoneX)) {
-                    monst.moveRight(10);
-                    if (monst._img.getPositionX() >= milestoneX) monst._milestone++; // reached milestone
+                var deltaX = milestoneX - xPos;
+                var deltaY = yPos - milestoneY;
+                if (xPos == milestoneX && yPos == milestoneY) monst._milestone++; // reached milestone
+                else if (deltaX<=0 && deltaY>0) {
+                    if (Math.abs(deltaX) > Math.abs(deltaY)) {
+                        monst.moveLeftTo(milestoneX, milestoneY);
+                    }
+                    else if (Math.abs(deltaX) <= Math.abs(deltaY)) {
+                        monst.moveDownTo(milestoneX, milestoneY);
+                    }
                 }
-                else if (Math.max(milestoneX - xPos,0) <= Math.max(yPos - milestoneY,0) && !(yPos<milestoneY)) {
-                    monst.moveDown(10);
-                    if (monst._img.getPositionY() <= milestoneY) monst._milestone++; // reached milestone
+                else if (deltaX<0 && deltaY<=0) {
+                    if (Math.abs(deltaX) > Math.abs(deltaY)) {
+                        monst.moveLeftTo(milestoneX, milestoneY);
+                    }
+                    else if (Math.abs(deltaX) <= Math.abs(deltaY)) {
+                        monst.moveUpTo(milestoneX, milestoneY);
+                    }
                 }
-                else if (xPos >= milestoneX && yPos <= milestoneY) monst._milestone++; // reached milestone
+                else if (deltaX>0 && deltaY<=0) {
+                    if (Math.abs(deltaX) > Math.abs(deltaY)) {
+                        monst.moveRightTo(milestoneX, milestoneY);
+                    }
+                    else if (Math.abs(deltaX) <= Math.abs(deltaY)) {
+                        monst.moveUpTo(milestoneX, milestoneY);
+                    }
+                }
+                else if (deltaX>0 && deltaY>0) {
+                    if (Math.abs(deltaX) > Math.abs(deltaY)) {
+                        monst.moveRightTo(milestoneX, milestoneY);
+                    }
+                    else if (Math.abs(deltaX) <= Math.abs(deltaY)) {
+                        monst.moveDownTo(milestoneX, milestoneY);
+                    }
+                }
             }
             else {  // reach the house
                 if (cThis._gameState === 1) {
