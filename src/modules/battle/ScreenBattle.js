@@ -220,7 +220,7 @@ var ScreenBattle = cc.Layer.extend({
                 monst = new Bat(cThis.level, xPos, yPos, this.SCALE_RATE);
                 break;
         }
-        this.addChild(monst._img);
+        this.addChild(monst);
         this.monsters.push(monst);
     },
     moveMonsters: function() {

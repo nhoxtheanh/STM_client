@@ -106,27 +106,29 @@ var GamePlayManager = cc.Class.extend({
         // }, 30000);
     },
     addNewMonster: function() {
-        var monst;
+        var monster;
         var monsterPos = 0;
         var monsterType = this._utility.randomInt(1,3);//(1,4)
         var xPos = this._utility.convertCellIndexToCoord(monsterPos).x;
         var yPos = this._utility.convertCellIndexToCoord(monsterPos).y;
+
+        // create monster
         switch (monsterType) {
-            case 1: 
-                monst = new Assassin(this._wave, xPos, yPos, this.SCALE_RATE);
+            case 1:
+                monster = new Assassin(this._wave, xPos, yPos, this.SCALE_RATE);
                 break;
-            case 2: 
-                monst = new DarkGiant(this._wave, xPos, yPos, this.SCALE_RATE);
+            case 2:
+                monster = new DarkGiant(this._wave, xPos, yPos, this.SCALE_RATE);
                 break;
-            case 3: 
-                monst = new Iceman(this._wave, xPos, yPos, this.SCALE_RATE);
+            case 3:
+                monster = new Iceman(this._wave, xPos, yPos, this.SCALE_RATE);
                 break;
-            case 4: 
-                monst = new Bat(this._wave, xPos, yPos, this.SCALE_RATE);
+            case 4:
+                monster = new Bat(this._wave, xPos, yPos, this.SCALE_RATE);
                 break;
         }
-        this._monsters.push(monst);
-        this._battleGUI.addChild(monst._img);
+        this._monsters.push(monster);
+        this._battleGUI.addChild(monster);
     },
     moveAllMonsters: function() {
         const cThis = this;

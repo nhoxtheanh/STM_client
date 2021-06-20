@@ -46,6 +46,11 @@
         "src/modules/testnetwork/network/Network.js",
         "src/modules/testnetwork/network/Packet.js",
         "src/modules/testnetwork/ScreenNetwork.js",
+
+        "src/modules/battle/monster/MonsterManager.js",
+        "src/modules/battle/monster/MonsterConstant.js",
+        "src/modules/battle/monster/MonsterConfig.js",
+
         
         "src/modules/battle/Topographic.js",
         "src/modules/battle/Monster.js",
@@ -55,7 +60,6 @@
         "src/modules/battle/GamePlayManager.js",
         "src/modules/battle/astar.js",
         "src/modules/battle/animation.js",
-
 
         "src/modules/loginAndLobby/LoginView.js",
         "src/modules/loginAndLobby/Lobby.js",

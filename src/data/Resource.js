@@ -187,28 +187,28 @@ var monster_res = {
 };
 
 var right = {
-    monster_assassin_run_0020 : "monster/frame/assassin/monster_assassin_run_0020.png",
-    monster_assassin_run_0021 : "monster/frame/assassin/monster_assassin_run_0021.png",
-    monster_assassin_run_0022 : "monster/frame/assassin/monster_assassin_run_0022.png",
-    monster_assassin_run_0023 : "monster/frame/assassin/monster_assassin_run_0023.png",
-    monster_assassin_run_0024 : "monster/frame/assassin/monster_assassin_run_0024.png",
-    monster_assassin_run_0025 : "monster/frame/assassin/monster_assassin_run_0025.png",
-    monster_assassin_run_0026 : "monster/frame/assassin/monster_assassin_run_0026.png",
-    monster_assassin_run_0027 : "monster/frame/assassin/monster_assassin_run_0027.png",
-    monster_assassin_run_0028 : "monster/frame/assassin/monster_assassin_run_0028.png",
-    monster_assassin_run_0029 : "monster/frame/assassin/monster_assassin_run_0029.png"
+    monster_assassin_run_0020 : "monster_assassin_run_0020.png",
+    monster_assassin_run_0021 : "monster_assassin_run_0021.png",
+    monster_assassin_run_0022 : "monster_assassin_run_0022.png",
+    monster_assassin_run_0023 : "monster_assassin_run_0023.png",
+    monster_assassin_run_0024 : "monster_assassin_run_0024.png",
+    monster_assassin_run_0025 : "monster_assassin_run_0025.png",
+    monster_assassin_run_0026 : "monster_assassin_run_0026.png",
+    monster_assassin_run_0027 : "monster_assassin_run_0027.png",
+    monster_assassin_run_0028 : "monster_assassin_run_0028.png",
+    monster_assassin_run_0029 : "monster_assassin_run_0029.png"
 };
 var down = {
-    monster_assassin_run_0000 : "monster/frame/assassin/monster_assassin_run_0000.png",
-    monster_assassin_run_0001 : "monster/frame/assassin/monster_assassin_run_0001.png",
-    monster_assassin_run_0002 : "monster/frame/assassin/monster_assassin_run_0002.png",
-    monster_assassin_run_0003 : "monster/frame/assassin/monster_assassin_run_0003.png",
-    monster_assassin_run_0004 : "monster/frame/assassin/monster_assassin_run_0004.png",
-    monster_assassin_run_0005 : "monster/frame/assassin/monster_assassin_run_0005.png",
-    monster_assassin_run_0006 : "monster/frame/assassin/monster_assassin_run_0006.png",
-    monster_assassin_run_0007 : "monster/frame/assassin/monster_assassin_run_0007.png",
-    monster_assassin_run_0008 : "monster/frame/assassin/monster_assassin_run_0008.png",
-    monster_assassin_run_0009 : "monster/frame/assassin/monster_assassin_run_0009.png"
+    monster_assassin_run_0000 : "monster_assassin_run_0000.png",
+    monster_assassin_run_0001 : "monster_assassin_run_0001.png",
+    monster_assassin_run_0002 : "monster_assassin_run_0002.png",
+    monster_assassin_run_0003 : "monster_assassin_run_0003.png",
+    monster_assassin_run_0004 : "monster_assassin_run_0004.png",
+    monster_assassin_run_0005 : "monster_assassin_run_0005.png",
+    monster_assassin_run_0006 : "monster_assassin_run_0006.png",
+    monster_assassin_run_0007 : "monster_assassin_run_0007.png",
+    monster_assassin_run_0008 : "monster_assassin_run_0008.png",
+    monster_assassin_run_0009 : "monster_assassin_run_0009.png"
 };
 
 var tower_res = {
@@ -270,3 +270,10 @@ var game_config = {
     tower_buff_json : "config/json/TowerBuff.json",
     treasure_json : "config/json/Treasure.json",
 }
+
+var MonsterResource = [
+    {
+        plist: "monster/frame/assassin/monster_assassin.plist",
+        png: "monster/frame/assassin/monster_assassin.png"
+    }
+]

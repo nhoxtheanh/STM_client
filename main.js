@@ -40,6 +40,8 @@ cc.game.onStart = function () {
         gv.poolObjects = new PoolObject();
         //modules
         testnetwork.connector = new testnetwork.Connector(gv.gameClient);
+        // init manager
+        MonsterManager.getInstance();
 
         fr.view(BattleScene);
     }, this);

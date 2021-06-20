@@ -1,7 +1,6 @@
-
 var Monster = ccui.Widget.extend({
     ctor: function(level, xPos, yPos, scaleRate, zOrder) {
-
+        this._super();
         this._flyable = null;
         this._speed = 30;
         this._move_right_animation = null;
@@ -16,6 +15,7 @@ var Monster = ccui.Widget.extend({
         zOrder = zOrder || 10;
         scaleRate = scaleRate || 0.831;
         this._img = new cc.Sprite(this.getFileName());
+        this.addChild(this._img);
         this._img.setScale(scaleRate*Math.pow(1.1,this._level));
         this._img.attr({ x: xPos, y: yPos });
         this._img.setLocalZOrder(zOrder);
@@ -102,7 +102,7 @@ var WalkingMonster = Monster.extend({
         // this._move_right_animation.setLoops(-1);
 		// this._move_right_action = cc.animate(this._move_right_animation);
         // this._move_right_action.retain();
-        var anima = new Animation();
+
         var move_right_frames = [
             right.monster_assassin_run_0020,
             right.monster_assassin_run_0021,
@@ -127,24 +127,80 @@ var WalkingMonster = Monster.extend({
             down.monster_assassin_run_0008,
             down.monster_assassin_run_0009,
         ];
-        this._move_right_action = anima.frameByFrame("move_right", move_right_frames, 1/move_right_frames.length, 1);
-        this._move_down_action = anima.frameByFrame("move_right", move_down_frames, 1/move_down_frames.length, 1);
+        this._move_right_action = MyAnimation.getInstance().frameByFrame(null, move_right_frames, 1 / move_right_frames.length, 1);
+        this._move_down_action = MyAnimation.getInstance().frameByFrame(null, move_down_frames, 1 / move_down_frames.length, 1);
     },
     moveUpTo: function(milestoneX, milestoneY) {
         this._super(milestoneX, milestoneY);
-        this._img.runAction(this._move_down_action);
+        var move_right_frames = [
+            right.monster_assassin_run_0020,
+            right.monster_assassin_run_0021,
+            right.monster_assassin_run_0022,
+            right.monster_assassin_run_0023,
+            right.monster_assassin_run_0024,
+            right.monster_assassin_run_0025,
+            right.monster_assassin_run_0026,
+            right.monster_assassin_run_0027,
+            right.monster_assassin_run_0028,
+            right.monster_assassin_run_0029,
+        ];
+        this._img.runAction(cc.sequence(
+            MyAnimation.getInstance().frameByFrame(null, move_right_frames, 1/move_right_frames.length, 1)
+        ));
     },
     moveDownTo: function(milestoneX, milestoneY) {
         this._super(milestoneX, milestoneY);
-        this._img.runAction(this._move_down_action);
+        var move_right_frames = [
+            right.monster_assassin_run_0020,
+            right.monster_assassin_run_0021,
+            right.monster_assassin_run_0022,
+            right.monster_assassin_run_0023,
+            right.monster_assassin_run_0024,
+            right.monster_assassin_run_0025,
+            right.monster_assassin_run_0026,
+            right.monster_assassin_run_0027,
+            right.monster_assassin_run_0028,
+            right.monster_assassin_run_0029,
+        ];
+        this._img.runAction(cc.sequence(
+            MyAnimation.getInstance().frameByFrame(null, move_right_frames, 1/move_right_frames.length, 1)
+        ));
     },
     moveRightTo: function(milestoneX, milestoneY) {
         this._super(milestoneX, milestoneY);
-        this._img.runAction(this._move_right_action);
+        var move_right_frames = [
+            right.monster_assassin_run_0020,
+            right.monster_assassin_run_0021,
+            right.monster_assassin_run_0022,
+            right.monster_assassin_run_0023,
+            right.monster_assassin_run_0024,
+            right.monster_assassin_run_0025,
+            right.monster_assassin_run_0026,
+            right.monster_assassin_run_0027,
+            right.monster_assassin_run_0028,
+            right.monster_assassin_run_0029,
+        ];
+        this._img.runAction(cc.sequence(
+            MyAnimation.getInstance().frameByFrame(null, move_right_frames, 1/move_right_frames.length, 1)
+        ));
     },
     moveLeftTo: function(milestoneX, milestoneY) {
         this._super(milestoneX, milestoneY);
-        this._img.runAction(this._move_right_action);
+        var move_right_frames = [
+            right.monster_assassin_run_0020,
+            right.monster_assassin_run_0021,
+            right.monster_assassin_run_0022,
+            right.monster_assassin_run_0023,
+            right.monster_assassin_run_0024,
+            right.monster_assassin_run_0025,
+            right.monster_assassin_run_0026,
+            right.monster_assassin_run_0027,
+            right.monster_assassin_run_0028,
+            right.monster_assassin_run_0029,
+        ];
+        this._img.runAction(cc.sequence(
+            MyAnimation.getInstance().frameByFrame(null, move_right_frames, 1/move_right_frames.length, 1)
+        ));
     }
 });
 

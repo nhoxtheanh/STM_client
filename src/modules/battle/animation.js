@@ -1,6 +1,4 @@
-
-
-var Animation = cc.Class.extend(
+var MyAnimation = cc.Class.extend(
 {
     /**
      * Frame by frame action (used for cc.Sprite)
@@ -21,7 +19,10 @@ var Animation = cc.Class.extend(
         if (!animation) {
             var spriteFrames = [];
             frames.forEach(function(frame) {
-                spriteFrames.push(frame);
+                var spriteFrame = cc.spriteFrameCache.getSpriteFrame(frame);
+                if (spriteFrame) {
+                    spriteFrames.push(spriteFrame);
+                }
             });
             if (repeat >= 0) {
                 animation = new cc.Animation(spriteFrames, delay, repeat);
@@ -34,3 +35,11 @@ var Animation = cc.Class.extend(
         return repeat >= 0 ? animate : animate.repeatForever();
     },
 });
+
+MyAnimation._instance = null;
+MyAnimation.getInstance = function () {
+    if (!MyAnimation._instance) {
+        MyAnimation._instance = new MyAnimation();
+    }
+    return MyAnimation._instance;
+}
