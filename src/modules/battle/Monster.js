@@ -127,8 +127,8 @@ var WalkingMonster = Monster.extend({
             down.monster_assassin_run_0008,
             down.monster_assassin_run_0009,
         ];
-        this._move_right_action = anima.frameByFrame("move_right", move_right_frames, 1/right.length, 1);
-        this._move_down_action = anima.frameByFrame("move_right", move_down_frames, 1/down.length, 1);
+        this._move_right_action = anima.frameByFrame("move_right", move_right_frames, 1/move_right_frames.length, 1);
+        this._move_down_action = anima.frameByFrame("move_right", move_down_frames, 1/move_down_frames.length, 1);
     },
     moveUpTo: function(milestoneX, milestoneY) {
         this._super(milestoneX, milestoneY);
